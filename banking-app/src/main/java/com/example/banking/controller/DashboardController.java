@@ -30,6 +30,10 @@ public class DashboardController {
     {
         return "git testing";
     }
+    public String Jhancy(){
+        return "Welcome to git";
+            }
+    
     @GetMapping("/stats")
     public DashboardStats getStats() {
         // 1. Counts
